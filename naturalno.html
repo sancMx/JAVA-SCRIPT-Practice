@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: rgba(2, 4, 4, 0.822);
+            background-color: rgb(180, 159, 234);
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function sum(n) {
+            let sum = 0;
+
+            for (let i = 1; i <= n; i++) {
+                sum += i;
+            }
+
+            document.write("The sum of the first " + n + " natural numbers is: " + sum + "<br>");
+        }
+
+        sum(10);  
+    </script>
+</body>
+
+</html>
