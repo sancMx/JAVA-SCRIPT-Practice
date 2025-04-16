@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: rgba(2, 4, 4, 0.822);
+            background-color: rgb(241, 208, 239);
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function isPrime(num) {
+            let isPrimeNumber = true;
+
+            if (num < 2) {
+                isPrimeNumber = false;
+            }
+
+            for (let i = 2; i < num; i++) {
+                if (num % i === 0) {
+                    isPrimeNumber = false;
+                }
+            }
+
+            document.write("Is " + num + " prime? " + (isPrimeNumber ? "Yes" : "No") + "<br>");
+        }
+
+        isPrime(5);
+        isPrime(10);
+
+    </script>
+</body>
+
+</html>
+
+
+</script>
+</body>
+
+</html>
