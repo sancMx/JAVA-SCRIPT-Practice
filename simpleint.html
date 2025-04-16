@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: rgb(11, 45, 235);
+            background-color: azure;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function SimpleInterest(principal, rate, time) {
+            let interest = (principal * rate * time) / 100;
+            document.write("Simple Interest for P = " + principal + ", R = " + rate + "%, T = " + time + " years is: " + interest + "<br>");
+        }
+
+
+        SimpleInterest(2000, 3.5, 4);  
+    </script>
+</body>
+
+</html>
